@@ -8,16 +8,16 @@ This is a informational website. In this website we use React js. This type of w
 
 ## For creating React app
 
-# `npx create-react-app`
+### `npx create-react-app`
 
 ## Bootstrap
 
-# `npm i bootstrap`
+### `npm i bootstrap`
 
 ## Sass
 
-# `npm i node-sass`
+### `npm i node-sass`
 
 ## React router dom
 
-# `npm i react-router-dom`
+### `npm i react-router-dom`

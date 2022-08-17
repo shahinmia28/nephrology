@@ -1,0 +1,41 @@
+.appointment {
+  .container {
+    .form-wrapper {
+      padding: 20px 0;
+      .form {
+        .title {
+          color: #009760;
+        }
+        margin: 10px;
+        box-shadow: 0 0 15px -5px #009760;
+        border-radius: 5px;
+        margin: auto;
+        padding: 20px;
+        max-width: 650px;
+        .item {
+          padding: 10px;
+        }
+        .condition {
+          padding: 10px;
+          display: flex;
+
+          .form-check {
+            padding: 0;
+            margin-right: 20px;
+            .form-check-input {
+              margin: 5px;
+            }
+          }
+        }
+        .button {
+          padding: 10px;
+          input {
+            width: 150px;
+            border: 1px solid #009760;
+            color: #009760;
+          }
+        }
+      }
+    }
+  }
+}

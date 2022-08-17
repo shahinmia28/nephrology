@@ -1,0 +1,52 @@
+.know {
+  margin: 40px 0;
+  text-align: center;
+  .container {
+    .title {
+      width: 75%;
+      margin: auto;
+      h1 {
+        padding: 5px;
+        font-size: 50px;
+        font-weight: 600;
+      }
+    }
+    .card-wrapper {
+      .single {
+        padding: 10px;
+        .card-info {
+          .card-img {
+            margin-bottom: -60px;
+            padding: 20px;
+            z-index: 3;
+            img {
+              width: 120px;
+              height: 120px;
+              border-radius: 50%;
+              box-shadow: 0 0 10px 1px #c5c5c5;
+            }
+          }
+
+          .card-text {
+            height: 220px;
+            box-shadow: 0 0 10px 1px #c5c5c5;
+            margin: 10px;
+            border-radius: 5px;
+            z-index: 1;
+            a {
+              text-decoration: none;
+              h3 {
+                margin-top: 80px;
+                color: #009760;
+                cursor: pointer;
+                &:hover {
+                  color: #007a4e;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

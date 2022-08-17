@@ -1,0 +1,58 @@
+.slider {
+  background: #e77f7f;
+  width: 100%;
+  .slider-wrapper {
+    .slick-slider {
+      padding-bottom: 40px;
+      .slick-dots {
+        bottom: 0px;
+        li button::before {
+          font-size: 10px;
+          color: #fff;
+        }
+        li.slick-active button:before {
+          color: white;
+        }
+      }
+      .slide {
+        .card {
+          margin: auto;
+          height: 500px;
+          width: 90%;
+          text-align: center;
+          position: relative;
+          border: none;
+          .img-container {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin: auto;
+            margin-top: 10px;
+          }
+          .card-body {
+            .card-title {
+              h4 {
+                font-size: 20px;
+                font-weight: 700;
+              }
+              span {
+                color: #009760;
+              }
+            }
+          }
+          .btn-container {
+            position: absolute;
+            left: 0;
+            bottom: 0px;
+            padding: 12px;
+            background: #009760;
+            .btn {
+              margin: auto;
+              color: #009760;
+            }
+          }
+        }
+      }
+    }
+  }
+}

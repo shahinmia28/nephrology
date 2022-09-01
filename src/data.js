@@ -262,3 +262,22 @@ export const formData = [
     type: "text",
   },
 ];
+
+export const iconData = [
+  {
+    id: 1,
+    name: "fa-brands fa-facebook-f ",
+  },
+  {
+    id: 2,
+    name: "fa-brands fa-twitter ",
+  },
+  {
+    id: 3,
+    name: "fa-brands fa-instagram ",
+  },
+  {
+    id: 4,
+    name: "fa-brands fa-whatsapp ",
+  },
+];

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { formData } from "../../data";
+import Footer from "../home/footer/Footer";
 import SlickCarousel from "../home/slick-carousel/SlickCarousel";
 import "./Appointment.scss";
 
@@ -63,6 +64,7 @@ const Appointment = () => {
       </div>
 
       <SlickCarousel />
+      <Footer />
     </div>
   );
 };

@@ -1,22 +1,25 @@
 .disease {
-  .title {
-    padding: 80px;
-    background: #009760;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    @media (max-width: 800px) {
+  .title-container {
+    padding-bottom: 20px;
+    .title {
       padding: 40px;
-      .title-text {
-        p {
-          font-size: 12px;
+      padding-bottom: 0px;
+      background: #009760;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      @media (max-width: 800px) {
+        .title-text {
+          p {
+            font-size: 12px;
+          }
         }
       }
-    }
-    .title-text {
-      text-align: center;
-      color: #fff;
-      width: 700px;
+      .title-text {
+        text-align: center;
+        color: #fff;
+        width: 700px;
+      }
     }
   }
 
@@ -33,7 +36,7 @@
           color: #00492e;
           cursor: pointer;
           &:hover {
-            background: #d7d7d7;
+            background: #ecfff8;
           }
         }
       }

@@ -1,8 +1,64 @@
 .footer {
+  svg {
+    background: #ecfff8;
+  }
   .info {
-    background: #2b7c43;
-    height: 350px;
+    background: #009760;
     width: 100%;
     color: #fff;
+    padding-bottom: 20px;
+    .container {
+      margin-top: 30px;
+      .row {
+        .details {
+          h2 {
+            margin-bottom: 20px;
+          }
+          .footer-menu {
+            display: flex;
+            flex-direction: column;
+            color: #fff;
+            font-size: 13px;
+            a {
+              margin: 4px 0;
+              color: inherit;
+              text-decoration: none;
+              transition: all 0.4s linear;
+              &:hover {
+                text-decoration: underline;
+                color: #c1c1c1;
+              }
+            }
+          }
+        }
+        .contact {
+          .form-box {
+            form {
+              .person-info {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                @media (max-width: 768px) {
+                  display: block;
+                }
+              }
+              .massage {
+                textarea {
+                  width: 99%;
+                }
+              }
+              .button {
+                input {
+                  color: #009760;
+                }
+                span {
+                  color: #c2e539;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }

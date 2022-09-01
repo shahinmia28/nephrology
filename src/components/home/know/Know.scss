@@ -1,5 +1,6 @@
 .know {
-  margin: 40px 0;
+  background: #ecfff8;
+  padding: 40px 0;
   text-align: center;
   .container {
     .title {
@@ -28,6 +29,7 @@
           }
 
           .card-text {
+            background: #fff;
             height: 220px;
             box-shadow: 0 0 10px 1px #c5c5c5;
             margin: 10px;

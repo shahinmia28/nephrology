@@ -4,12 +4,17 @@
   background: url("./bg.jpg") center no-repeat;
   background-size: cover;
   .info {
-    height: 250px;
+    h2 {
+      color: #ecfff8;
+    }
+    height: 150px;
     width: 450px;
-    background: #fd030358;
+    background: #fd03034c;
     margin: auto;
     margin-top: 40px;
+    margin-bottom: 100px;
     border-radius: 10px;
+
     a {
       padding: 3px;
       border-radius: 3px;
@@ -21,7 +26,7 @@
       }
     }
     @media (max-width: 800px) {
-      height: 210px;
+      height: 150px;
       width: 400px;
     }
   }

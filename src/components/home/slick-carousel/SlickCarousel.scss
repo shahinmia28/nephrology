@@ -1,5 +1,4 @@
 .slider {
-  background: #e77f7f;
   width: 100%;
   .slider-wrapper {
     .slick-slider {
@@ -8,13 +7,14 @@
         bottom: 0px;
         li button::before {
           font-size: 10px;
-          color: #fff;
+          color: #009760;
         }
         li.slick-active button:before {
-          color: white;
+          color: #009760;
         }
       }
       .slide {
+        padding: 25px 10px;
         .card {
           margin: auto;
           height: 500px;
@@ -22,12 +22,19 @@
           text-align: center;
           position: relative;
           border: none;
+          box-shadow: 0 0 15px -5px #009760;
           .img-container {
             width: 100px;
             height: 100px;
             border-radius: 50%;
             margin: auto;
             margin-top: 10px;
+            box-shadow: 0 0 15px -2px #009760;
+            transition: all 0.4s linear;
+            &:hover {
+              margin-top: 100px;
+              transform: scale(2);
+            }
           }
           .card-body {
             .card-title {
@@ -45,10 +52,11 @@
             left: 0;
             bottom: 0px;
             padding: 12px;
-            background: #009760;
+            // background: #009760;
             .btn {
               margin: auto;
               color: #009760;
+              border: 1px solid #009760;
             }
           }
         }

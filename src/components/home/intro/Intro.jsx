@@ -6,7 +6,7 @@ const Intro = () => {
   return (
     <div className="intro">
       <div className="info text-center p-3">
-        <h4>We have the best Nephrologist Doctors</h4>
+        <h2>Best Nephrologist Here</h2>
         <h3 className="text-light p-3">
           <Typewriter
             options={{
@@ -16,7 +16,7 @@ const Intro = () => {
             }}
           />
         </h3>
-        <Link to="/services">Click for Details</Link>
+        {/* <Link to="/services">Click for Details</Link> */}
       </div>
 
       <div className="menu-bar">

@@ -31,9 +31,11 @@ const SlickCarousel = () => {
   };
   return (
     <div className="slider my-5" id="doctor">
-      <div className="title text-center text-light mt-5">
+      <div className="title text-center mt-5">
         <h1>Doctors List</h1>
-        <p>Find a doctor based on your symptoms to treat you</p>
+        <p className="text-muted">
+          Find a doctor based on your symptoms to treat you
+        </p>
       </div>
 
       <div className="slider-wrapper m-5">

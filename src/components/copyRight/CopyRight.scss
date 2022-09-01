@@ -1,0 +1,48 @@
+.copyRight {
+  background: #005d3b;
+  .row {
+    .copy {
+      margin: auto;
+      padding: 20px 40px;
+      color: #91ab27;
+    }
+    .social {
+      ul {
+        margin: auto 20px;
+        .icon-box {
+          background: #fff;
+          margin: 5px 10px;
+          width: 40px;
+          height: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 50%;
+          transition: all 0.4s linear;
+          &:hover {
+            animation: iconAnim 1s infinite;
+          }
+
+          @keyframes iconAnim {
+            1% {
+              transform: scale(1);
+            }
+            50% {
+              transform: scale(1.1);
+            }
+            100% {
+              transform: scale(1);
+            }
+          }
+          .icon-link {
+            color: #7e9523;
+            i {
+              font-size: 20px;
+              color: inherit;
+            }
+          }
+        }
+      }
+    }
+  }
+}
